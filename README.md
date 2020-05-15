@@ -12,4 +12,4 @@ https://docs.docker.com/engine/install/centos/   --- for CentOS
 https://docs.docker.com/engine/install/debian/   --- for debion
 
 after installation check all sptes are okay or any msitake make sure you are all done.
-
+perfome this command adn host website.

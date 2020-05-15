@@ -5,15 +5,15 @@ my this project main aim is host website and run on docker.
 https://kuldip62.github.io/morikuldip/
 this is my site url.
 
-i run all th project in ubuntu os with install docker after pefome this all.
+i run all th project in ubuntu os with install docker after perfome this all.
 this link helps install docker in your ubuntu machine.
 https://docs.docker.com/engine/install/ubuntu/   --- for ubuntu
 https://docs.docker.com/engine/install/fedora/   --- for fedora
 https://docs.docker.com/engine/install/centos/   --- for CentOS
 https://docs.docker.com/engine/install/debian/   --- for debion
 
-after installation check all sptes are okay or any msitake make sure you are all done.
-perfome this command and host website.i give here some command to help to perfome this prectical.
+make sure you install properlly.
+perfome this command and host website.i give here some command to help a perfome this prectical.
 
 NOTE : i have get error when i not use sudo command make sure sudo is reqared or not !
 
@@ -25,9 +25,9 @@ sudo docker -d -P --name web nginx
 
 3) check port of web 
 sudo docker web port
-Note: after perfone this you have see somethink like   ip:portnumber
+Note: after perfome this you have see somethink like   ip:portnumber
 looks loke 0.0.0.0:32770
-pest in your machine local browser.you get welcome pafe of nginx.
+pest in your machine local browser.you get welcome page of nginx.
 
 4) i make 1 directory for my website
 mkdir mysite
@@ -38,7 +38,7 @@ cd mysite
 
 6) make website to host 
 echor " I am Kuldip Hiralal Mori" > index.html
-Note: after perfome all opration given by here you can change index.html by your requredment.
+Note: after perfome all opration given by here you can change index.html by your perpose.
 
 7) run website 
 docker run -d -P -v $HOME/mysite:/usr/share/nginx/html \ ( PRESS ENTER & perfome command given by below )

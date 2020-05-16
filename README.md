@@ -48,5 +48,15 @@ docker run -d -P -v $HOME/mysite:/usr/share/nginx/html \ ( PRESS ENTER & perfome
 sudo docker port mysite
 Note: after perfome 8 number command youa get some like 80/tcp -> 0.0.0.0:32769 (May be you get diffrent number)
 copy this all ip 0.0.0.0:32769 and pest in local browser 
--;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-
+--------------------------------------------------------
 Done ! you complete here ! after perfoem 8 you can change your index.html
+--------------------------------------------------------
+after shutdown you laptop or computer may be you face some problem then run this command 
+9) run your website once agine after shutdown machine.
+sudo docker start af471e744f51
+Note: here "af471e744f51" pest your CONTAINER ID
+--------------------------------------------------------
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+if you have nay query or doute comment below.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

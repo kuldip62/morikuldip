@@ -58,7 +58,7 @@ copy this all ip 0.0.0.0:32769 and pest in local browser
 Done ! you complete here ! after perfoem 8 you can change your index.html
 
 --------------------------------------------------------
-after shutdown you laptop or computer may be you face some problem then run this command 
+after shutdown you laptop or computer may be you face some problem then run this command.
 
 
 9) run your website once agine after shutdown machine.
@@ -66,4 +66,4 @@ sudo docker start af471e744f51
 Note: here "af471e744f51" pest your CONTAINER ID
 
 --------------------------------------------------------
-query are welcome.
+your querys are welcome.

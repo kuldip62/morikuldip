@@ -28,10 +28,12 @@ sudo docker web port
 Note: after perfome this you have see somethink like   ip:portnumber
 looks loke 0.0.0.0:32770
 pest in your local browser.you get welcome page of nginx.
+
 ---------------------------------------------------------
 4) i make 1 directory for my website
 mkdir mysite
 Note: mysite is my directory name you can give anythink you want.
+
 ---------------------------------------------------------
 5) i go to my directory.
 cd mysite
@@ -57,6 +59,8 @@ Done ! you complete here ! after perfoem 8 you can change your index.html
 
 --------------------------------------------------------
 after shutdown you laptop or computer may be you face some problem then run this command 
+
+
 9) run your website once agine after shutdown machine.
 sudo docker start af471e744f51
 Note: here "af471e744f51" pest your CONTAINER ID
